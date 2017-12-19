@@ -12,6 +12,7 @@
 		F01953B21FE990A000508ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01953B01FE9909F00508ECF /* Main.storyboard */; };
 		F01953B41FE990A000508ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01953B31FE990A000508ECF /* Assets.xcassets */; };
 		F01953B71FE990A000508ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01953B51FE990A000508ECF /* LaunchScreen.storyboard */; };
+		F01953C31FE993B400508ECF /* RegionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01953C21FE993B400508ECF /* RegionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F01953B31FE990A000508ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F01953B61FE990A000508ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F01953B81FE990A000508ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01953C21FE993B400508ECF /* RegionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F01953AB1FE9909F00508ECF /* Regiones */ = {
 			isa = PBXGroup;
 			children = (
+				F01953C01FE993B400508ECF /* Source */,
 				F01953AC1FE9909F00508ECF /* AppDelegate.swift */,
 				F01953AE1FE9909F00508ECF /* ViewController.swift */,
 				F01953B01FE9909F00508ECF /* Main.storyboard */,
@@ -62,6 +65,22 @@
 				F01953B81FE990A000508ECF /* Info.plist */,
 			);
 			path = Regiones;
+			sourceTree = "<group>";
+		};
+		F01953C01FE993B400508ECF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F01953C11FE993B400508ECF /* Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F01953C11FE993B400508ECF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F01953C21FE993B400508ECF /* RegionButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			files = (
 				F01953AF1FE9909F00508ECF /* ViewController.swift in Sources */,
 				F01953AD1FE9909F00508ECF /* AppDelegate.swift in Sources */,
+				F01953C31FE993B400508ECF /* RegionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73A3QCVC2H;
 				INFOPLIST_FILE = Regiones/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quimadevelopers.Regiones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73A3QCVC2H;
 				INFOPLIST_FILE = Regiones/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quimadevelopers.Regiones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
